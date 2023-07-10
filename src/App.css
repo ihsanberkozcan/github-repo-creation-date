@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-
 .search {
   color: #ffffffbf;
   border: 1px solid #57606a;
@@ -21,7 +20,7 @@
   margin-bottom: 10px;
   font-size: 25px;
 }
-.sub-title{
+.sub-title {
   margin-bottom: 20px;
   font-size: 15px;
   color: #57606a;
@@ -36,33 +35,31 @@
   font-size: 20px;
 }
 
+.language{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 25px;
+}
 
 @media only screen and (max-width: 768px) {
   .search {
-    
     height: 20px;
     width: 300px;
-
   }
-  
+
   .title {
-   
     font-size: 20px;
   }
-  .sub-title{
-  
+  .sub-title {
     font-size: 15px;
-
-    
   }
-  
-  .date-title {
 
+  .date-title {
     font-size: 20px;
   }
-  
+
   .date {
     font-size: 20px;
   }
-  
 }
