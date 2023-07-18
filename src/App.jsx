@@ -42,8 +42,12 @@ function App() {
         formatDate(response.data.created_at);
       } else {
         alert(repoURL + t("notValid"));
+        setCreatedAtDate("");
+        
       }
     } catch (error) {
+      alert("Oops");
+      setCreatedAtDate("");
       console.error(error);
     }
   };
