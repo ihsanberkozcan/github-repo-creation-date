@@ -27,7 +27,7 @@ function App() {
 
   const handleSearch = async () => {
     const repoURL = searchText;
-    const checkURL = /^(https:\/\/)?github\.com\/[\w-]+\/[\w-]+$/.test(repoURL);
+    const checkURL = /^(https:\/\/)?github\.com\/[\w-]+\/[\w.-]+$/.test(repoURL);
     try {
       if (checkURL) {
         const UrlPart = repoURL.split("/");
